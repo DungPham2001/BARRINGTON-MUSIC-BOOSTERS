@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Illustration of a school band stage with musical notes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b3a67"/><stop offset="1" stop-color="#7b2d5b"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#f4a300"/></linearGradient>
+    <radialGradient id="spot" cx="50%" cy="0%" r="80%"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="640" rx="36" fill="url(#bg)"/>
+  <polygon points="400,0 130,520 670,520" fill="url(#spot)"/>
+  <g stroke="#fff" stroke-opacity=".18" stroke-width="2">
+    <path d="M40 120H760M40 140H760M40 160H760M40 180H760M40 200H760"/>
+  </g>
+  <g fill="#ffd166" opacity=".9">
+    <ellipse cx="140" cy="180" rx="16" ry="12" transform="rotate(-20 140 180)"/><rect x="153" y="110" width="4" height="70"/>
+    <ellipse cx="330" cy="140" rx="16" ry="12" transform="rotate(-20 330 140)"/><rect x="343" y="70" width="4" height="70"/>
+    <ellipse cx="560" cy="200" rx="16" ry="12" transform="rotate(-20 560 200)"/><rect x="573" y="130" width="4" height="70"/>
+    <ellipse cx="680" cy="160" rx="16" ry="12" transform="rotate(-20 680 160)"/><rect x="693" y="90" width="4" height="70"/>
+    <path d="M343 70q40 10 30 50" stroke="#ffd166" stroke-width="4" fill="none"/>
+  </g>
+  <!-- stage -->
+  <path d="M0 520h800v90a30 30 0 0 1-30 30H30A30 30 0 0 1 0 610z" fill="#1a1530"/>
+  <rect x="0" y="505" width="800" height="26" fill="#3b2a55"/>
+  <!-- drum -->
+  <g transform="translate(120 360)">
+    <ellipse cx="90" cy="30" rx="90" ry="26" fill="#e8e8f0"/>
+    <path d="M0 30v110c0 14 40 26 90 26s90-12 90-26V30c0 14-40 26-90 26S0 44 0 30z" fill="#c8102e"/>
+    <path d="M0 80c0 14 40 26 90 26s90-12 90-26" stroke="#fff" stroke-opacity=".5" stroke-width="4" fill="none"/>
+    <path d="M60 10l70-40M120 10l-50-45" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- violin -->
+  <g transform="translate(360 300) rotate(12 80 120)">
+    <path d="M80 0c-30 0-45 25-35 55-25 10-30 50-5 70-25 25-10 80 40 80s65-55 40-80c25-20 20-60-5-70 10-30-5-55-35-55z" fill="url(#gold)" stroke="#a15c00" stroke-width="4"/>
+    <rect x="72" y="-80" width="16" height="130" rx="6" fill="#3b2a1a"/>
+    <circle cx="80" cy="-90" r="12" fill="#3b2a1a"/>
+    <path d="M70 130q10 14 20 0" stroke="#a15c00" stroke-width="4" fill="none"/>
+    <path d="M66 120h28" stroke="#3b2a1a" stroke-width="6"/>
+  </g>
+  <!-- trumpet -->
+  <g transform="translate(560 380)" fill="none" stroke="#ffd166" stroke-width="12" stroke-linecap="round">
+    <path d="M0 40h140"/><path d="M140 40c40 0 40-40 0-40H30"/><path d="M-10 40l-14-6"/>
+    <path d="M140 40l56-34v68z" fill="#ffd166"/>
+    <path d="M50 40v-26M80 40v-26M110 40v-26" stroke-width="8"/>
+  </g>
+  <!-- seats -->
+  <g fill="#fff" fill-opacity=".1"><circle cx="90" cy="570" r="24"/><circle cx="190" cy="580" r="24"/><circle cx="610" cy="580" r="24"/><circle cx="710" cy="570" r="24"/></g>
+</svg>

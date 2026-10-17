@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Illustration of community supporting music education">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4a300"/><stop offset="1" stop-color="#c8102e"/></linearGradient></defs>
+  <rect width="640" height="420" rx="28" fill="url(#s)"/>
+  <path d="M320 330C150 230 130 130 220 100c50-16 80 14 100 44 20-30 50-60 100-44 90 30 70 130-100 230z" fill="#fff" fill-opacity=".92"/>
+  <g fill="#c8102e"><ellipse cx="290" cy="215" rx="20" ry="15" transform="rotate(-20 290 215)"/><rect x="306" y="130" width="6" height="85"/><ellipse cx="360" cy="195" rx="20" ry="15" transform="rotate(-20 360 195)"/><rect x="376" y="110" width="6" height="85"/><path d="M306 130L382 110v18l-76 20z"/></g>
+  <g fill="#fff" fill-opacity=".4"><circle cx="80" cy="340" r="40"/><circle cx="570" cy="90" r="50"/><circle cx="560" cy="350" r="26"/></g>
+</svg>
